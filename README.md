@@ -11,6 +11,17 @@ Aplikasi GUI berbasis Python untuk akuisisi, pemrosesan, dan analisis sinyal EEG
 | `eeg_processor_8.py` | Modul pemrosesan sinyal EEG (filter, ICA, SNR, dll) |
 | `olah_data.py` | Ekstraksi fitur EEG & PPG |
 | `requirements.txt` | Daftar library yang dibutuhkan |
+| `images/` | Gambar dokumentasi (wiring & konfigurasi) |
+
+## Wiring
+
+Skema koneksi antara elektroda, board EEG, dan komputer:
+
+<img src="images/wiring.png" alt="Diagram wiring" width="700">
+
+## Konfigurasi
+
+<img src="images/configurations.png" alt="Konfigurasi" width="700">
 
 ## Persyaratan
 
@@ -34,4 +45,4 @@ Ketiga file `.py` harus berada dalam **satu folder**.
 ## Catatan
 
 - Sesuaikan port COM board EEG pada kolom input di GUI.
-- Dataset (CSV/txt) tidak disertakan di repository ini.
+- File normative database (CSV) tidak disertakan di repository ini.
